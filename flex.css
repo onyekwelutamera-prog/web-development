@@ -1,0 +1,47 @@
+#flex-container{
+    
+    height: 100vh;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1{
+    width: 10rem;
+    height: 10rem;
+    background-color: black;
+    transition: all 0.5s ease-in-out;
+    flex-grow: 1;
+}
+
+#box2{
+    width: 10rem;
+    height: 10rem;
+    background-color: brown;
+    transition: all 0.8s ease-in-out;
+    flex-shrink: 0.5;
+    align-self: flex-end;
+}
+
+#box3{
+    width: 10rem;
+    height: 10rem;
+    background-color: blueviolet;
+    transition: all 0.8s ease-in-out;
+}
+
+#box4{
+    width: 10rem;
+    height: 10rem;
+    background-color: aqua;
+    transition: all 0.8s ease-in-out;
+}
+
+#box5{
+    width:10rem;
+    height: 10rem;
+    background-color:gray;
+
+}

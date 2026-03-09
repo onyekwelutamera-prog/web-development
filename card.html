@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="card.css">
+    <title> Amazing Food Recipe by Chefzee</title>
+</head>
+<body class="flex flex-col item-center">
+    <section class="w-full min-h-screen flex flex-col md:flex-col lg:flex-row container mx-auto z-10">
+        <div class="w-1/2 flex flex-col gap-3 justify-center px-3">
+            <h1 class="text-5xl font-bold text-shadow-lg/30 mb-4">Beef Steak Delight</h1>
+            <div class="flex gap-2 text-gray-500 mb-4 items-center">
+                <img src="data:image/webp;base64,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" alt="logo" class="w-6 h-6">
+                <p>1 hour</p>
+                <p>.</p>
+                <p>Difficulty: Medium</p>
+                <p>.</p>
+                <p>1345 cal</p>
+                <p>.</p>
+                <p>Serves 4 people</p>
+            </div>
+            <p class="mb-6">Indulge in the rich flavour of this juicy, tender beef steak seasoned to perfection loaded with herbs and spices and seared for a rich flavorful crust on the outside while remaining succulent and tender inside. Served with a side of creamy mashed potatoes, sauteed vegetables and a glass of red wine.</p>
+            <div class="flex gap-6">
+                <a href="">
+                    <button class="bg-pink-400 text-white font-semibold py-2 px-4 rounded-full hover:bg-pink-500">View Recipe</button>
+                </a>
+                 <a href="">
+                    <button class="bg-pink-400 text-white font-semibold py-2 px-4 rounded-full hover:bg-pink-500">Get Recipe</button>
+                </a>
+            </div>
+        </div>
+        <div class="w-1/2 flex justify-center">
+            <img class="w-90  h-90 mt-10 md:mt-8 rounded-lg shadow-xl/50" src="https://img.freepik.com/premium-photo/steak-with-green-garnish-top_862330-1020.jpg" alt="juicy beef steak" >
+        </div>
+    </section>
+    <section class="py-24">
+        <h2 class="text-5xl font-bold mb-4 text-center text-shadow-lg/30">Ingredients</h2>
+        <div class="grid content-start md:content-center md:grid-cols-3 gap-7 place-items-center">
+            <div class="flex h-12 w-96 flex items-center rounded-lg shadow p-2 ">
+                <img src="https://img.freepik.com/premium-photo/beef-high-quality-4k-hdr_889056-21320.jpg" alt="ribeye steak" class="size-15 p-2 object-cover mr-6">
+                <div>
+                    <h3 class="text-lg font-semibold">Ribeye Steak</h3>
+                    <p class="text-sm text-gray-500">4 beef ribeye steaks</p>
+                </div>
+            </div>
+             <div class="flex h-12 w-96 flex items-center rounded-lg shadow p-2 ">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2023/1/YW/FB/CT/109659535/750-ml-olive-oil-glass-bottle-500x500.jpg" alt="olive oil" class="size-15 p-2 object-cover mr-6">
+                <div>
+                    <h3 class="text-lg font-semibold">Olive Oil</h3>
+                    <p class="text-sm text-gray-500">2 tablespoons of Olive oil</p>
+                </div>
+            </div>
+             <div class="flex h-12 w-96 flex items-center rounded-lg shadow p-2 ">
+                <img src="https://cdn.pixabay.com/photo/2018/02/27/10/46/garlic-3185163_1280.jpg" alt="Garlic cloves" class="size-15 p-2 object-cover mr-6">
+                <div>
+                    <h3 class="text-lg font-semibold">Garlic Cloves</h3>
+                    <p class="text-sm text-gray-500">2 cloves garlic, minced</p>
+                </div>
+            </div>
+             <div class="flex h-12 w-96 flex items-center rounded-lg shadow p-2 ">
+                <img src="https://png.pngtree.com/thumb_back/fh260/background/20241007/pngtree-bunch-of-fresh-rosemary-on-light-textured-table-image_16307674.jpg" alt="rosemary" class="size-15 p-2 object-cover mr-6">
+                <div>
+                    <h3 class="text-lg font-semibold">Rosemary</h3>
+                    <p class="text-sm text-gray-500">1 teaspoon fresh rosemary,chopped</p>
+                </div>
+            </div>
+             <div class="flex h-12 w-96 flex items-center rounded-lg shadow p-2 ">
+                <img src="https://thegourmetpalette.com/wp-content/uploads/2023/09/2549714917cdbc3632d0ecd9cb2cecfa-1.jpg" alt="thyme" class="size-15 p-2 object-cover mr-6">
+                <div>
+                    <h3 class="text-lg font-semibold">Thyme</h3>
+                    <p class="text-sm text-gray-500">1 teaspoon fresh thyme, chopped</p>
+                </div>
+            </div>
+             <div class="flex h-12 w-96 flex items-center rounded-lg shadow p-2 ">
+                <img src="https://kitchenseer.com/wp-content/uploads/2021/11/A-pair-of-simple-glass-salt-and-pepper-shakers-stand-alone-on-a-varnished-wooden-table-top.-1200x798.jpg" alt="salt and pepper" class="size-15 p-2 object-cover mr-6">
+                <div>
+                    <h3 class="text-lg font-semibold">Salt and Pepper</h3>
+                    <p class="text-sm text-gray-500">Salt and Pepper to taste</p>
+                </div>
+            </div> 
+            <div class="flex h-12 w-96 flex items-center rounded-lg shadow p-2 ">
+                <img src="https://merakiseeds.com/images/thumbs/0004543_polarnye-mini-dwarf-tomato.jpeg" alt="tomatoes" class="size-15 p-2 object-cover mr-6">
+                <div>
+                    <h3 class="text-lg font-semibold">Tomatoes</h3>
+                    <p class="text-sm text-gray-500">4 seeds of tomatoes</p>
+                </div>
+            </div>
+             <div class="flex h-12 w-96 flex items-center rounded-lg shadow p-2 ">
+                <img src="https://www.simplyrecipes.com/thmb/0EXv9EfWJezP4b_r6aNLne_CsnI=/2000x1333/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2018__03__stovetop-asparagus-horiz-a-2000-4941e1a824ed4a4798f66fb54f8e04e6.jpg" alt="seasoned vegetables" class="size-15 p-2 object-cover mr-6">
+                <div>
+                    <h3 class="text-lg font-semibold">Seasoned Vegetables</h3>
+                    <p class="text-sm text-gray-500">5 sticks of Asparagus</p>
+                </div>
+            </div>
+             <div class="flex h-12 w-96 flex items-center rounded-lg shadow p-2 ">
+                <img src="https://s.yimg.com/ny/api/res/1.2/KIDDlq1UqsneKNYiahrlPQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD03OTg7Y2Y9d2VicA--/https://media.zenfs.com/en/ktvi_articles_498/992446f4a4ce13a50a310c6a06b47999" alt="potatoes" class="size-15 p-2 object-cover mr-6">
+                <div>
+                    <h3 class="text-lg font-semibold">potatoes</h3>
+                    <p class="text-sm text-gray-500">Cooked and Mashed up potatoes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

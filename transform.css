@@ -1,0 +1,48 @@
+#box1{
+    width: 20rem;
+    height: 20rem;
+    background-color: black;
+    transition: all 0.5s ease-in-out;
+}
+
+#box1:hover{
+    background-color: aqua;
+    transform: translate(200px,200px);
+}
+
+#box2{
+    width: 20rem;
+    height: 20rem;
+    background-color: brown;
+    transition: all 0.8s ease-in-out;
+}
+
+#box2:hover{
+    background-color: yellowgreen;
+    transform: rotateY(180deg);
+
+}
+
+#box3{
+    width: 20rem;
+    height: 20rem;
+    background-color: blueviolet;
+    transition: all 0.8s ease-in-out;
+}
+
+#box3:hover{
+    background-color: beige;
+    transform: scale(0.5);
+}
+
+#box4{
+    width: 20rem;
+    height: 20rem;
+    background-color: aqua;
+    transition: all 0.8s ease-in-out;
+}
+
+#box4:hover{
+    background-color: black;
+    transform: skew(20deg);
+}

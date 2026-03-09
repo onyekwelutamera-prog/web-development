@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    background-color: rgba(14, 120, 181, 0.516);
+    background: #020024;
+background: linear-gradient(88deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 16%, rgba(27, 34, 104, 0.59) 39%, rgba(55, 73, 77, 0.38) 75%);
+}
+h3 {
+    color:blue;
+    font-size: 50px;
+
+}
+h2{
+    text-shadow: -18px 17px 5px rgba(0,0,0,0.66);
+}
+
+.logo{
+    color:aquamarine
+}
+
+
+
+#name{
+    color:blueviolet;
+    font-size:1.5rem;
+    font-weight: 900;
+    text-align: center;
+    font-style: italic;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+#box-1{
+    width: 15rem;
+    height: 15rem;
+    background-color: rgba(202, 79, 8, 0.811);
+    border-radius: 50%;
+}
+
+
+#p-tag{
+    padding-top: 20px;
+}
+
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+.roboto-uniquifier{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+#box-3{
+    background-color: red;
+    width: 15rem;
+    height: 15rem;
+    position: absolute;
+    top: 1 rem;
+    left: 1 rem;
+}
+#box-2{
+    width: 15rem;
+    height: 15rem;
+    position: relative;
+    background-color: blue;
+}
+#box-4{
+    background-color: beige;
+    width: 15rem;
+    height: 15rem;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
