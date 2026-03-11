@@ -79,4 +79,3 @@ setInterval(() => {
 }, 2000)
 
 // VERSION CONTROL SYSTEM (VCS) - is a software tool that helps developers manage changes to their codebase over time. It allows multiple developers to collaborate on the same project, track changes, and revert to previous versions if necessary. VCS can be either centralized or distributed. Centralized VCS, such as Subversion (SVN), relies on a central server to store the codebase and manage changes. Distributed VCS, such as Git, GitHub allows each developer to have a local copy of the entire codebase and manage changes independently before pushing them to a central repository. VCS is essential for maintaining code integrity, facilitating collaboration, and enabling efficient project management in software development.
-
